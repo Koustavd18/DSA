@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"example.com/DSA/MoveZeros"
+	"example.com/DSA/longSubStr"
 )
 
 func main() {
 	fmt.Println("Import and Execute")
-	fmt.Println(MoveZeros.Optimal())
+	fmt.Println(longSubStr.Optimal(longSubStr.SubStr))
 }
