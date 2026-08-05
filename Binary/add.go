@@ -1,0 +1,3 @@
+package Binary
+
+func Add() {}
