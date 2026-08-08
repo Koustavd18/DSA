@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"example.com/DSA/Binary"
+	"example.com/DSA/majority"
 )
 
 func main() {
 	fmt.Println("Import and Execute")
-	fmt.Println(Binary.Add(Binary.Binary1, Binary.Binary2))
+	fmt.Println(majority.Optimal(majority.Test))
 
 }
