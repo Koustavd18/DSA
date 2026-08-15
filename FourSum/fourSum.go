@@ -34,7 +34,7 @@ func Optimal(nums1, nums2, nums3, nums4 []int) (ans int) {
 		for _, val2 := range nums4 {
 			target := -(val1 + val2)
 			if _, ok := sm[target]; ok {
-				ans += 1
+				ans += sm[target]
 			}
 		}
 	}
