@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	minwindowsubstr "example.com/DSA/MinWindowSubstr"
+	"example.com/DSA/anagram"
 )
 
 func main() {
 	fmt.Println("Import and Execute")
-	fmt.Println(minwindowsubstr.Optimal(minwindowsubstr.Test, minwindowsubstr.Target))
+	fmt.Println(anagram.Optimal(anagram.Test))
 
 }
