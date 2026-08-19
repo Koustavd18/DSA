@@ -1,6 +1,6 @@
 package reverselist
 
-import "example.com/DSA/cycliclist"
+import cycliclist "example.com/DSA/CyclicList"
 
 func Reverse(head *cycliclist.Node) *cycliclist.Node {
 
