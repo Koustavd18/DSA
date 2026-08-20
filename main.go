@@ -3,11 +3,10 @@ package main
 import (
 	"fmt"
 
-	"example.com/DSA/anagram"
+	"example.com/DSA/subsets"
 )
 
 func main() {
 	fmt.Println("Import and Execute")
-	fmt.Println(anagram.Optimal(anagram.Test))
-
+	fmt.Println(subsets.BackTrack(subsets.Test))
 }
