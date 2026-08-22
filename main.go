@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"example.com/DSA/subsets"
+	"example.com/DSA/palindromepart"
 )
 
 func main() {
 	fmt.Println("Import and Execute")
-	fmt.Println(subsets.BackTrack(subsets.Test))
+	fmt.Println(palindromepart.Backtrack(palindromepart.Test))
 }
