@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"example.com/DSA/palindromepart"
+	"example.com/DSA/validparenthesis"
 )
 
 func main() {
 	fmt.Println("Import and Execute")
-	fmt.Println(palindromepart.Backtrack(palindromepart.Test))
+	fmt.Println(validparenthesis.IsValid(validparenthesis.Test))
 }
